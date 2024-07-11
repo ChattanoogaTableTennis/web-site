@@ -12,7 +12,7 @@ permissions:
   pages: write
   id-token: write
 
-environment:
+env:
   OUTPUT: _html
 
 concurrency:
