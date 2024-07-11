@@ -26,7 +26,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    steps:
+      steps:
       - name: Checkout
         uses: actions/checkout@v4
 
@@ -63,4 +63,4 @@ jobs:
 
       - name: Deploy website
         id: deployment
-        uses: actions/deploy-pages@v4        run: lektor deploy -O '${{ env.OUTPUT }}' ghpages-https
+        uses: actions/deploy-pages@v4
