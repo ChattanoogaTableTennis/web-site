@@ -46,7 +46,7 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Build website
-        run: lektor build -f webpack -O '${{ env.OUTPUT }}'
+        run: lektor build -f htmlmin -O '${{ env.OUTPUT }}'
 
       #- name: Check for broken internal links
       #  uses: wjdp/htmltest-action@master
