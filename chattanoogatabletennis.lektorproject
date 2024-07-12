@@ -17,6 +17,7 @@ default = not
 
 
 [packages]
+lektor-minify = 1.2
 #lektor-webpack-support = 0.3
 #lektor-disqus-comments = 0.1
 #lektor-markdown-header-anchors = 0.1
